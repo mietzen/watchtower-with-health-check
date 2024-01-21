@@ -1,5 +1,1 @@
-# watchtower with health check
-
-`docker run -d --name watchtower -v /var/run/docker.sock:/var/run/docker.sock mietzen/watchtower`
-
-https://hub.docker.com/r/mietzen/watchtower
+# Use [containrrr/watchtower](https://github.com/containrrr/watchtower) it got a health check implemented since 1.6.0: https://github.com/containrrr/watchtower/pull/1725
